@@ -44,18 +44,13 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'ervandew/supertab'
 Bundle 'terryma/vim-expand-region'
 Bundle "mbbill/undotree"
-Bundle 'mileszs/ack.vim'
 Bundle 'Shougo/neocomplcache.vim'
 Bundle 'Shougo/neocomplete.vim'
 Bundle 'mileszs/ack.vim'
-Bundle 'mbbill/undotree'
-Bundle 'kovisoft/slimv'
 Bundle 'xolox/vim-lua-ftplugin'
 "Bundle 'fholgado/minibufexpl.vim'
+Bundle 'mustache/vim-mustache-handlebars'
 
-Bundle 'christoomey/vim-tmux-navigator'
-
-Bundle 'daylerees/colour-schemes'
 
 Bundle 'kien/rainbow_parentheses.vim'
 "Bundle 'airblade/vim-gitgutter'
@@ -64,26 +59,19 @@ Bundle 'kien/rainbow_parentheses.vim'
 "Bundle 'Lokaltog/vim-powerline'
 Bundle 'bling/vim-airline'
 
-Bundle 'twerth/ir_black'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'ratazzi/blackboard.vim'
 Bundle 'tomasr/molokai'
-Bundle 'reidab/cool_glow'
-Bundle 'baskerville/bubblegum'
-Bundle 'mustache/vim-mustache-handlebars'
-"Bundle 'chriskempson/base16-vim'
+"Bundle 'MichaelMalick/vim-colors-bluedrake'
+"Bundle 'reidab/cool_glow'
+"Bundle 'whatyouhide/vim-gotham'
 Bundle 'morhetz/gruvbox'
-Bundle 'bitterjug/vim-colors-freyr'
-Bundle 'tpope/vim-vividchalk'
-Bundle 'vim-scripts/xoria256.vim'
-Bundle 'jpo/vim-railscasts-theme'
-Bundle 'toupeira/vim-desertink'
+"Bundle 'toupeira/vim-desertink'
 "Bundle 'vim-scripts/tornadotmpl.vim'
-Bundle 'nanotech/jellybeans.vim'
+"Bundle 'nanotech/jellybeans.vim'
 
 Bundle 'mhinz/vim-startify'
 Bundle 'Shutnik/jshint2.vim'
-Bundle 'gkz/vim-ls'
+Bundle 'judasnow/vim-ls'
 "Bundle 'nvie/vim-flake8'
 
 Bundle 'groenewege/vim-less'
@@ -105,17 +93,16 @@ Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 Bundle "honza/vim-snippets"
 
-Bundle "kovisoft/slimv"
+"Bundle "kovisoft/slimv"
 
 "???
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'terryma/vim-multiple-cursors'
 
-Bundle 'gkz/vim-ls'
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'tpope/vim-fugitive'
 
-Bundle 'liuheng/conque.vim'
+"Bundle 'liuheng/conque.vim'
 "Bundle 'myusuf3/numbers.vim'
 
 Bundle 'Shougo/vimshell.vim'
@@ -166,22 +153,24 @@ set novb
 set noswapfile
 set nobackup
 set nomodeline
-"set cursorline
-"set cuc
+set cursorline
+set cuc
 "}}}
 
 "tab
 "{{{
+filetype indent on
 set ts=4 sw=4 sts=4 expandtab
+autocmd FileType ls setlocal ts=2 sw=2 sts=2 expandtab
+autocmd FileType python setlocal ts=4 sw=4 sts=4 expandtab
 "}}}
 
 "font & color
 "{{{
-set tran=0
 hi nontext guifg=#999999
 set guifont=Monaco:h14
 ":set guifont=Menlo:h14
-set ls=6
+set ls=5
 set encoding=utf8
 set fileencoding=utf8
 
@@ -191,8 +180,8 @@ set background=dark
 colorscheme solarized
 
 if has("win32")
-    let g:solarized_bold=0    "default value is 1
-    let g:solarized_underline=0    "default value is 1
+    let g:solarized_bold=1    "default value is 1
+    let g:solarized_underline=1    "default value is 1
     let g:solarized_contrast="high"    "default value is normal
     syntax enable
     set background=dark
@@ -397,4 +386,3 @@ set foldlevel=1024
 "noremap k <NOP>
 "noremap l <NOP>
 "}}}
-
