@@ -49,10 +49,8 @@ Bundle 'mustache/vim-mustache-handlebars'
 
 
 Bundle 'kien/rainbow_parentheses.vim'
-"Bundle 'airblade/vim-gitgutter'
 "Bundle 'tpope/vim-fugitive'
 
-"Bundle 'Lokaltog/vim-powerline'
 Bundle 'bling/vim-airline'
 
 Bundle 'altercation/vim-colors-solarized'
