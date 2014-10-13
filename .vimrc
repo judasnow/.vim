@@ -26,13 +26,9 @@ Bundle 'vim-scripts/LargeFile'
 Bundle 'L9'
 Bundle 'bufexplorer.zip'
 Bundle 'The-NERD-tree'
-
 Bundle 'mattn/emmet-vim'
-
-Bundle "Valloric/YouCompleteMe"
-
+"Bundle "Valloric/YouCompleteMe"
 Bundle 'nathanaelkane/vim-indent-guides'
-
 Bundle 'Kris2k/matchit'
 Bundle 'Valloric/MatchTagAlways'
 Bundle 'Layzie/jquery.vim'
@@ -61,30 +57,19 @@ Bundle 'bling/vim-airline'
 
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tomasr/molokai'
-"Bundle 'MichaelMalick/vim-colors-bluedrake'
-"Bundle 'reidab/cool_glow'
-"Bundle 'whatyouhide/vim-gotham'
 Bundle 'morhetz/gruvbox'
-"Bundle 'toupeira/vim-desertink'
-"Bundle 'vim-scripts/tornadotmpl.vim'
-"Bundle 'nanotech/jellybeans.vim'
+Bundle 'MichaelMalick/vim-colors-bluedrake'
+Bundle 'chriskempson/base16-vim'
+Bundle 'vim-scripts/tornadotmpl.vim'
 
 Bundle 'mhinz/vim-startify'
 Bundle 'Shutnik/jshint2.vim'
 Bundle 'judasnow/vim-ls'
-"Bundle 'nvie/vim-flake8'
 
 Bundle 'groenewege/vim-less'
-"Bundle 'vim-ruby/vim-ruby'
-"Bundle 'vim-scripts/VimClojure'
-"Bundle 'kchmck/vim-coffee-script'
-"Bundle 'derekwyatt/vim-scala'
 Bundle "jelera/vim-javascript-syntax"
-"Bundle 'eagletmt/ghcmod-vim'
 Bundle 'hail2u/vim-css3-syntax'
-"Bundle 'paulyg/Vim-PHP-Stuff'
-"Bundle 'hdima/python-syntax'
-"Bundle 'klen/python-mode'
+Bundle 'hdima/python-syntax'
 Bundle 'tmhedberg/SimpylFold'
 Bundle 'othree/html5.vim'
 
@@ -92,6 +77,7 @@ Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 Bundle "honza/vim-snippets"
+Bundle 'mxw/vim-jsx'
 
 "Bundle "kovisoft/slimv"
 
@@ -101,9 +87,6 @@ Bundle 'terryma/vim-multiple-cursors'
 
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'tpope/vim-fugitive'
-
-"Bundle 'liuheng/conque.vim'
-"Bundle 'myusuf3/numbers.vim'
 
 Bundle 'Shougo/vimshell.vim'
 Bundle "godlygeek/tabular"
