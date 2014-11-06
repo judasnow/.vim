@@ -27,7 +27,7 @@ Bundle 'L9'
 Bundle 'bufexplorer.zip'
 Bundle 'The-NERD-tree'
 Bundle 'mattn/emmet-vim'
-"Bundle "Valloric/YouCompleteMe"
+Bundle "Valloric/YouCompleteMe"
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'Kris2k/matchit'
 Bundle 'Valloric/MatchTagAlways'
@@ -44,8 +44,8 @@ Bundle 'Shougo/neocomplcache.vim'
 Bundle 'Shougo/neocomplete.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'xolox/vim-lua-ftplugin'
-"Bundle 'fholgado/minibufexpl.vim'
 Bundle 'mustache/vim-mustache-handlebars'
+Bundle 'wlangstroth/vim-racket'
 
 
 Bundle 'kien/rainbow_parentheses.vim'
@@ -70,6 +70,7 @@ Bundle 'hail2u/vim-css3-syntax'
 Bundle 'hdima/python-syntax'
 Bundle 'tmhedberg/SimpylFold'
 Bundle 'othree/html5.vim'
+Bundle 'oscarh/vimerl'
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
@@ -77,7 +78,7 @@ Bundle "garbas/vim-snipmate"
 Bundle "honza/vim-snippets"
 Bundle 'mxw/vim-jsx'
 
-"Bundle "kovisoft/slimv"
+Bundle "kovisoft/slimv"
 
 "???
 Bundle 'Lokaltog/vim-easymotion'
@@ -134,8 +135,8 @@ set novb
 set noswapfile
 set nobackup
 set nomodeline
-set cursorline
-set cuc
+"set cursorline
+"set cuc
 "}}}
 
 "tab
@@ -149,7 +150,7 @@ autocmd FileType python setlocal ts=4 sw=4 sts=4 expandtab
 "font & color
 "{{{
 hi nontext guifg=#999999
-set guifont=Monaco:h14
+set guifont=Monaco:h15
 ":set guifont=Menlo:h14
 set ls=5
 set encoding=utf8
@@ -367,4 +368,5 @@ set foldlevel=1024
 "noremap k <NOP>
 "noremap l <NOP>
 "}}}
+
 
