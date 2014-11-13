@@ -47,6 +47,7 @@ Bundle 'xolox/vim-lua-ftplugin'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'wlangstroth/vim-racket'
 
+Bundle 'jnurmine/Zenburn'
 
 Bundle 'kien/rainbow_parentheses.vim'
 "Bundle 'tpope/vim-fugitive'
@@ -368,5 +369,6 @@ set foldlevel=1024
 "noremap k <NOP>
 "noremap l <NOP>
 "}}}
+
 
 
