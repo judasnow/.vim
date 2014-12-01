@@ -86,6 +86,8 @@ Bundle 'groenewege/vim-less'
 Bundle "jelera/vim-javascript-syntax"
 Bundle 'hail2u/vim-css3-syntax'
 Bundle 'hdima/python-syntax'
+"Bundle 'klen/python-mode'
+
 Bundle 'tmhedberg/SimpylFold'
 Bundle 'othree/html5.vim'
 Bundle 'oscarh/vimerl'
