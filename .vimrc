@@ -45,9 +45,14 @@ Bundle 'Shougo/neocomplete.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'xolox/vim-lua-ftplugin'
 Bundle 'mustache/vim-mustache-handlebars'
+<<<<<<< Updated upstream
 Bundle 'wlangstroth/vim-racket'
 
 Bundle 'jnurmine/Zenburn'
+=======
+Bundle 'tpope/vim-fireplace'
+Bundle 'gosukiwi/vim-atom-dark'
+>>>>>>> Stashed changes
 
 Bundle 'kien/rainbow_parentheses.vim'
 "Bundle 'tpope/vim-fugitive'
@@ -60,6 +65,18 @@ Bundle 'morhetz/gruvbox'
 Bundle 'MichaelMalick/vim-colors-bluedrake'
 Bundle 'chriskempson/base16-vim'
 Bundle 'vim-scripts/tornadotmpl.vim'
+Bundle 'blerins/flattown'
+Bundle 'jnurmine/Zenburn'
+Bundle 'vim-scripts/SlateDark'
+Bundle 'nice/sweater'
+Bundle 'vim-scripts/desertEx'
+Bundle 'blerins/flattown'
+Bundle 'zeis/vim-kolor'
+Bundle 'vim-scripts/playroom'
+Bundle 'nelstrom/vim-mac-classic-theme'
+Bundle 'vim-scripts/donbass.vim'
+Bundle 'w0ng/vim-hybrid'
+Bundle 'gregsexton/Atom'
 
 Bundle 'mhinz/vim-startify'
 Bundle 'Shutnik/jshint2.vim'
@@ -369,6 +386,5 @@ set foldlevel=1024
 "noremap k <NOP>
 "noremap l <NOP>
 "}}}
-
 
 
