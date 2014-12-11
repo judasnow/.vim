@@ -50,8 +50,6 @@ Bundle 'tpope/vim-fireplace'
 Bundle 'kien/rainbow_parentheses.vim'
 "Bundle 'tpope/vim-fugitive'
 
-Bundle 'bling/vim-airline'
-
 Bundle 'jnurmine/Zenburn'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tomasr/molokai'
@@ -59,27 +57,21 @@ Bundle 'morhetz/gruvbox'
 Bundle 'chriskempson/base16-vim'
 Bundle 'vim-scripts/tornadotmpl.vim'
 Bundle 'blerins/flattown'
-Bundle 'jnurmine/Zenburn'
-Bundle 'vim-scripts/SlateDark'
 Bundle 'nice/sweater'
 Bundle 'vim-scripts/desertEx'
 Bundle 'blerins/flattown'
 Bundle 'zeis/vim-kolor'
-Bundle 'vim-scripts/playroom'
 Bundle 'nelstrom/vim-mac-classic-theme'
-Bundle 'vim-scripts/donbass.vim'
 Bundle 'w0ng/vim-hybrid'
-Bundle 'gregsexton/Atom'
 
+Bundle 'bling/vim-airline'
 Bundle 'mhinz/vim-startify'
 Bundle 'Shutnik/jshint2.vim'
 Bundle 'judasnow/vim-ls'
-
 Bundle 'groenewege/vim-less'
 Bundle "jelera/vim-javascript-syntax"
 Bundle 'hail2u/vim-css3-syntax'
 Bundle 'hdima/python-syntax'
-"Bundle 'klen/python-mode'
 
 Bundle 'tmhedberg/SimpylFold'
 Bundle 'othree/html5.vim'
@@ -93,13 +85,10 @@ Bundle 'mxw/vim-jsx'
 
 Bundle "kovisoft/slimv"
 
-"???
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'terryma/vim-multiple-cursors'
-
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'tpope/vim-fugitive'
-
 Bundle 'Shougo/vimshell.vim'
 Bundle "godlygeek/tabular"
 
