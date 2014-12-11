@@ -45,24 +45,17 @@ Bundle 'Shougo/neocomplete.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'xolox/vim-lua-ftplugin'
 Bundle 'mustache/vim-mustache-handlebars'
-<<<<<<< Updated upstream
 Bundle 'wlangstroth/vim-racket'
-
-Bundle 'jnurmine/Zenburn'
-=======
 Bundle 'tpope/vim-fireplace'
-Bundle 'gosukiwi/vim-atom-dark'
->>>>>>> Stashed changes
-
 Bundle 'kien/rainbow_parentheses.vim'
 "Bundle 'tpope/vim-fugitive'
 
 Bundle 'bling/vim-airline'
 
+Bundle 'jnurmine/Zenburn'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tomasr/molokai'
 Bundle 'morhetz/gruvbox'
-Bundle 'MichaelMalick/vim-colors-bluedrake'
 Bundle 'chriskempson/base16-vim'
 Bundle 'vim-scripts/tornadotmpl.vim'
 Bundle 'blerins/flattown'
