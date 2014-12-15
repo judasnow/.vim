@@ -19,7 +19,7 @@ endif
 "{{{
 set nocompatible
 filetype off 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'vim-scripts/LargeFile' 
@@ -27,7 +27,7 @@ Bundle 'L9'
 Bundle 'bufexplorer.zip'
 Bundle 'The-NERD-tree'
 Bundle 'mattn/emmet-vim'
-Bundle "Valloric/YouCompleteMe"
+"Bundle 'Valloric/YouCompleteMe'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'Kris2k/matchit'
 Bundle 'Valloric/MatchTagAlways'
@@ -46,7 +46,12 @@ Bundle 'mileszs/ack.vim'
 Bundle 'xolox/vim-lua-ftplugin'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'wlangstroth/vim-racket'
+<<<<<<< Updated upstream
 Bundle 'tpope/vim-fireplace'
+=======
+Bundle 'jnurmine/Zenburn'
+
+>>>>>>> Stashed changes
 Bundle 'kien/rainbow_parentheses.vim'
 "Bundle 'tpope/vim-fugitive'
 
