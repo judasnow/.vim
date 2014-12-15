@@ -51,6 +51,7 @@ Bundle 'kien/rainbow_parentheses.vim'
 "Bundle 'tpope/vim-fugitive'
 
 Bundle 'jnurmine/Zenburn'
+Bundle 'po/vim-railscasts-theme'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tomasr/molokai'
 Bundle 'morhetz/gruvbox'
