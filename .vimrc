@@ -1,4 +1,3 @@
-"os?
 "{{{
 if has("win32")
     let $VIMFILES = $VIM.'/vimfiles'
@@ -46,38 +45,46 @@ Bundle 'mileszs/ack.vim'
 Bundle 'xolox/vim-lua-ftplugin'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'wlangstroth/vim-racket'
-<<<<<<< Updated upstream
-Bundle 'tpope/vim-fireplace'
-=======
 Bundle 'jnurmine/Zenburn'
 
->>>>>>> Stashed changes
 Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'davidhalter/jedi-vim'
+Bundle 'fs111/pydoc.vim'
+Bundle 'hdima/python-syntax'
 "Bundle 'tpope/vim-fugitive'
 
-Bundle 'jnurmine/Zenburn'
-Bundle 'po/vim-railscasts-theme'
+Bundle 'bling/vim-airline'
+
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tomasr/molokai'
 Bundle 'morhetz/gruvbox'
+Bundle 'MichaelMalick/vim-colors-bluedrake'
 Bundle 'chriskempson/base16-vim'
 Bundle 'vim-scripts/tornadotmpl.vim'
 Bundle 'blerins/flattown'
+Bundle 'gosukiwi/vim-atom-dark'
+Bundle 'vim-scripts/twilight256.vim'
+Bundle 'jnurmine/Zenburn'
+Bundle 'vim-scripts/SlateDark'
 Bundle 'nice/sweater'
 Bundle 'vim-scripts/desertEx'
 Bundle 'blerins/flattown'
 Bundle 'zeis/vim-kolor'
+Bundle 'vim-scripts/playroom'
 Bundle 'nelstrom/vim-mac-classic-theme'
+Bundle 'vim-scripts/donbass.vim'
 Bundle 'w0ng/vim-hybrid'
+Bundle 'oguzbilgic/sexy-railscasts-theme'
+Bundle 'vyshane/vydark-vim-color'
+Bundle 'carlson-erik/wolfpack'
 
-Bundle 'bling/vim-airline'
 Bundle 'mhinz/vim-startify'
 Bundle 'Shutnik/jshint2.vim'
 Bundle 'judasnow/vim-ls'
+
 Bundle 'groenewege/vim-less'
 Bundle "jelera/vim-javascript-syntax"
 Bundle 'hail2u/vim-css3-syntax'
-Bundle 'hdima/python-syntax'
 
 Bundle 'tmhedberg/SimpylFold'
 Bundle 'othree/html5.vim'
@@ -91,10 +98,13 @@ Bundle 'mxw/vim-jsx'
 
 Bundle "kovisoft/slimv"
 
+"???
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'terryma/vim-multiple-cursors'
+
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'tpope/vim-fugitive'
+
 Bundle 'Shougo/vimshell.vim'
 Bundle "godlygeek/tabular"
 
@@ -158,9 +168,9 @@ autocmd FileType python setlocal ts=4 sw=4 sts=4 expandtab
 "font & color
 "{{{
 hi nontext guifg=#999999
-set guifont=Monaco:h15
+set guifont=Monaco:h14
 ":set guifont=Menlo:h14
-set ls=5
+set ls=6
 set encoding=utf8
 set fileencoding=utf8
 
@@ -376,5 +386,7 @@ set foldlevel=1024
 "noremap k <NOP>
 "noremap l <NOP>
 "}}}
+
+
 
 
