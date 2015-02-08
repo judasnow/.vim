@@ -46,6 +46,8 @@ Bundle 'xolox/vim-lua-ftplugin'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'wlangstroth/vim-racket'
 Bundle 'jnurmine/Zenburn'
+Bundle 'stulzer/heroku-colorscheme'
+Bundle 'alexjgriffin/sprinkles'
 
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'davidhalter/jedi-vim'
@@ -54,29 +56,12 @@ Bundle 'hdima/python-syntax'
 "Bundle 'tpope/vim-fugitive'
 
 Bundle 'bling/vim-airline'
+Bundle 'eagletmt/ghcmod-vim'
 
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tomasr/molokai'
-Bundle 'morhetz/gruvbox'
-Bundle 'MichaelMalick/vim-colors-bluedrake'
-Bundle 'chriskempson/base16-vim'
 Bundle 'vim-scripts/tornadotmpl.vim'
-Bundle 'blerins/flattown'
-Bundle 'gosukiwi/vim-atom-dark'
-Bundle 'vim-scripts/twilight256.vim'
 Bundle 'jnurmine/Zenburn'
-Bundle 'vim-scripts/SlateDark'
-Bundle 'nice/sweater'
-Bundle 'vim-scripts/desertEx'
-Bundle 'blerins/flattown'
-Bundle 'zeis/vim-kolor'
-Bundle 'vim-scripts/playroom'
-Bundle 'nelstrom/vim-mac-classic-theme'
-Bundle 'vim-scripts/donbass.vim'
-Bundle 'w0ng/vim-hybrid'
-Bundle 'oguzbilgic/sexy-railscasts-theme'
-Bundle 'vyshane/vydark-vim-color'
-Bundle 'carlson-erik/wolfpack'
 
 Bundle 'mhinz/vim-startify'
 Bundle 'Shutnik/jshint2.vim'
@@ -386,7 +371,4 @@ set foldlevel=1024
 "noremap k <NOP>
 "noremap l <NOP>
 "}}}
-
-
-
 
