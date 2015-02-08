@@ -1,3 +1,4 @@
+"os?
 "{{{
 if has("win32")
     let $VIMFILES = $VIM.'/vimfiles'
@@ -18,7 +19,7 @@ endif
 "{{{
 set nocompatible
 filetype off 
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'vim-scripts/LargeFile' 
@@ -26,7 +27,7 @@ Bundle 'L9'
 Bundle 'bufexplorer.zip'
 Bundle 'The-NERD-tree'
 Bundle 'mattn/emmet-vim'
-"Bundle 'Valloric/YouCompleteMe'
+Bundle "Valloric/YouCompleteMe"
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'Kris2k/matchit'
 Bundle 'Valloric/MatchTagAlways'
@@ -45,43 +46,18 @@ Bundle 'mileszs/ack.vim'
 Bundle 'xolox/vim-lua-ftplugin'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'wlangstroth/vim-racket'
-Bundle 'jnurmine/Zenburn'
-
+Bundle 'tpope/vim-fireplace'
 Bundle 'kien/rainbow_parentheses.vim'
-Bundle 'davidhalter/jedi-vim'
-Bundle 'fs111/pydoc.vim'
-Bundle 'hdima/python-syntax'
 "Bundle 'tpope/vim-fugitive'
 
-Bundle 'bling/vim-airline'
-
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'tomasr/molokai'
-Bundle 'morhetz/gruvbox'
-Bundle 'MichaelMalick/vim-colors-bluedrake'
-Bundle 'chriskempson/base16-vim'
 Bundle 'vim-scripts/tornadotmpl.vim'
-Bundle 'blerins/flattown'
-Bundle 'gosukiwi/vim-atom-dark'
-Bundle 'vim-scripts/twilight256.vim'
-Bundle 'jnurmine/Zenburn'
-Bundle 'vim-scripts/SlateDark'
-Bundle 'nice/sweater'
-Bundle 'vim-scripts/desertEx'
-Bundle 'blerins/flattown'
-Bundle 'zeis/vim-kolor'
-Bundle 'vim-scripts/playroom'
-Bundle 'nelstrom/vim-mac-classic-theme'
-Bundle 'vim-scripts/donbass.vim'
-Bundle 'w0ng/vim-hybrid'
-Bundle 'oguzbilgic/sexy-railscasts-theme'
-Bundle 'vyshane/vydark-vim-color'
-Bundle 'carlson-erik/wolfpack'
+Bundle 'stulzer/heroku-colorscheme'
 
+Bundle 'bling/vim-airline'
 Bundle 'mhinz/vim-startify'
 Bundle 'Shutnik/jshint2.vim'
 Bundle 'judasnow/vim-ls'
-
 Bundle 'groenewege/vim-less'
 Bundle "jelera/vim-javascript-syntax"
 Bundle 'hail2u/vim-css3-syntax'
@@ -98,13 +74,10 @@ Bundle 'mxw/vim-jsx'
 
 Bundle "kovisoft/slimv"
 
-"???
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'terryma/vim-multiple-cursors'
-
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'tpope/vim-fugitive'
-
 Bundle 'Shougo/vimshell.vim'
 Bundle "godlygeek/tabular"
 
@@ -140,7 +113,7 @@ set autoread
 filetype plugin on
 filetype indent on
 set so=7
-set linespace=3
+set linespace=2
 set scrolljump=6
 set hidden
 set nosmartindent
@@ -167,10 +140,10 @@ autocmd FileType python setlocal ts=4 sw=4 sts=4 expandtab
 
 "font & color
 "{{{
-hi nontext guifg=#999999
+hi nontext guifg=#333333
 set guifont=Monaco:h14
-":set guifont=Menlo:h14
-set ls=6
+"set guifont=Menlo:h14
+"set guifont=M+\ 1m\ light:h16
 set encoding=utf8
 set fileencoding=utf8
 
@@ -312,7 +285,7 @@ if !exists('g:airline_symbols')
 endif
 let g:airline_symbols.space = "\ua0"
 set fillchars+=stl:\ ,stlnc:\
-let g:airline_theme="solarized"
+let g:airline_theme="base16"
 "let g:airline#extensions#tabline#enabled = 1
 "let g:airline#extensions#tabline#left_sep = ' '
 "let g:airline#extensions#tabline#left_alt_sep = '|'
@@ -386,7 +359,6 @@ set foldlevel=1024
 "noremap k <NOP>
 "noremap l <NOP>
 "}}}
-
 
 
 
