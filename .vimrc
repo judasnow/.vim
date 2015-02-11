@@ -158,7 +158,7 @@ autocmd FileType python setlocal ts=4 sw=4 sts=4 expandtab
 "font & color
 "{{{
 hi nontext guifg=#333333
-set guifont=Monaco:h14
+set guifont=Monaco:h13
 "set guifont=Menlo:h14
 "set guifont=M+\ 1m\ light:h16
 set encoding=utf8
@@ -289,7 +289,7 @@ let g:bufExplorerUseCurrentWindow=1
 "indent_guides
 "{{{
 let g:indent_guides_guide_size = 1
-let g:indent_guides_enable_on_vim_startup=1
+let g:indent_guides_enable_on_vim_startup=0
 let g:indent_guides_space_guides = 1
 "}}}
 
