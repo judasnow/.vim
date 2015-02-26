@@ -19,7 +19,7 @@ endif
 "{{{
 set nocompatible
 filetype off 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'vim-scripts/LargeFile' 
@@ -46,18 +46,12 @@ Bundle 'mileszs/ack.vim'
 Bundle 'xolox/vim-lua-ftplugin'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'wlangstroth/vim-racket'
-<<<<<<< HEAD
-Bundle 'jnurmine/Zenburn'
-Bundle 'stulzer/heroku-colorscheme'
 Bundle 'alexjgriffin/sprinkles'
 
-=======
 Bundle 'tpope/vim-fireplace'
->>>>>>> aaa9298c9f1a7b51fa73a1c11b04ac7dee79b709
 Bundle 'kien/rainbow_parentheses.vim'
 "Bundle 'tpope/vim-fugitive'
 
-<<<<<<< HEAD
 Bundle 'bling/vim-airline'
 Bundle 'eagletmt/ghcmod-vim'
 
@@ -65,11 +59,8 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'tomasr/molokai'
 Bundle 'vim-scripts/tornadotmpl.vim'
 Bundle 'jnurmine/Zenburn'
-=======
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'vim-scripts/tornadotmpl.vim'
-Bundle 'stulzer/heroku-colorscheme'
->>>>>>> aaa9298c9f1a7b51fa73a1c11b04ac7dee79b709
 
 Bundle 'bling/vim-airline'
 Bundle 'mhinz/vim-startify'
@@ -157,13 +148,17 @@ autocmd FileType python setlocal ts=4 sw=4 sts=4 expandtab
 
 "font & color
 "{{{
-hi nontext guifg=#333333
-set guifont=Monaco:h13
+" hi nontext guifg=#333333
+"
+set guifont=Monaco\ 11
 "set guifont=Menlo:h14
 "set guifont=M+\ 1m\ light:h16
 set encoding=utf8
 set fileencoding=utf8
 
+let g:solarized_bold=0    "default value is 1
+let g:solarized_underline=0    "default value is 1
+let g:solarized_italic=0    "default value is 1
 let g:solarized_contrast="high"    "default value is normal
 syntax enable
 set background=dark
@@ -178,6 +173,10 @@ if has("win32")
     colorscheme solarized
     set guifont=Monaco:h10
     set gfw=Yahei_Mono:h10:cGB2312
+endif
+
+if has("unix")
+    set guifont=Ubuntu\ Mono\ 12
 endif
 "}}}
 
@@ -377,8 +376,3 @@ set foldlevel=1024
 "noremap l <NOP>
 "}}}
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> aaa9298c9f1a7b51fa73a1c11b04ac7dee79b709
