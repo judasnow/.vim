@@ -355,7 +355,7 @@ set undolevels=1000 "maximum number of changes that can be undone
 "折叠设置
 "{{{
 set foldmethod=marker
-set foldlevel=1024
+set foldlevel=128
 "set foldcolumn=4
 "}}}
 
