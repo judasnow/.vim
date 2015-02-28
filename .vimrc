@@ -1,4 +1,3 @@
-"os?
 "{{{
 if has("win32")
     let $VIMFILES = $VIM.'/vimfiles'
@@ -15,80 +14,87 @@ else
 endif
 "}}}
 
-"bundle
+"vundle
 "{{{
 set nocompatible
-filetype off 
+filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#rc()
-Bundle 'gmarik/vundle'
-Bundle 'vim-scripts/LargeFile' 
-Bundle 'L9'
-Bundle 'bufexplorer.zip'
-Bundle 'The-NERD-tree'
-Bundle 'mattn/emmet-vim'
-Bundle "Valloric/YouCompleteMe"
-Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'Kris2k/matchit'
-Bundle 'Valloric/MatchTagAlways'
-Bundle 'Layzie/jquery.vim'
-Bundle 'kien/ctrlp.vim'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-repeat'
-Bundle 'Lokaltog/TagHighlight'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'ervandew/supertab'
-Bundle 'terryma/vim-expand-region'
-Bundle "mbbill/undotree"
-Bundle 'Shougo/neocomplcache.vim'
-Bundle 'Shougo/neocomplete.vim'
-Bundle 'mileszs/ack.vim'
-Bundle 'xolox/vim-lua-ftplugin'
-Bundle 'mustache/vim-mustache-handlebars'
-Bundle 'wlangstroth/vim-racket'
-Bundle 'alexjgriffin/sprinkles'
+call vundle#begin()
+Plugin 'gmarik/vundle'
 
-Bundle 'tpope/vim-fireplace'
-Bundle 'kien/rainbow_parentheses.vim'
-"Bundle 'tpope/vim-fugitive'
+Plugin 'The-NERD-tree'
+Plugin 'mattn/emmet-vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'Kris2k/matchit'
+Plugin 'Valloric/MatchTagAlways'
+Plugin 'Layzie/jquery.vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-repeat'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'ervandew/supertab'
+Plugin 'terryma/vim-expand-region'
+Plugin 'mbbill/undotree'
+Plugin 'Shougo/neocomplcache.vim'
+Plugin 'Shougo/neocomplete.vim'
+Plugin 'mileszs/ack.vim'
+Plugin 'xolox/vim-lua-ftplugin'
+Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'wlangstroth/vim-racket'
 
-Bundle 'bling/vim-airline'
-Bundle 'eagletmt/ghcmod-vim'
+Plugin 'stulzer/heroku-colorscheme'
 
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'tomasr/molokai'
-Bundle 'vim-scripts/tornadotmpl.vim'
-Bundle 'jnurmine/Zenburn'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'vim-scripts/tornadotmpl.vim'
+Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'fs111/pydoc.vim'
+Plugin 'hdima/python-syntax'
+"Plugin 'tpope/vim-fugitive'
+Plugin 'alexjgriffin/sprinkles'
 
-Bundle 'bling/vim-airline'
-Bundle 'mhinz/vim-startify'
-Bundle 'Shutnik/jshint2.vim'
-Bundle 'judasnow/vim-ls'
-Bundle 'groenewege/vim-less'
-Bundle "jelera/vim-javascript-syntax"
-Bundle 'hail2u/vim-css3-syntax'
+Plugin 'bling/vim-airline'
+Plugin 'eagletmt/ghcmod-vim'
 
-Bundle 'tmhedberg/SimpylFold'
-Bundle 'othree/html5.vim'
-Bundle 'oscarh/vimerl'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'tomasr/molokai'
+Plugin 'vim-scripts/tornadotmpl.vim'
+Plugin 'jnurmine/Zenburn'
 
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "garbas/vim-snipmate"
-Bundle "honza/vim-snippets"
-Bundle 'mxw/vim-jsx'
+Plugin 'mhinz/vim-startify'
+Plugin 'Shutnik/jshint2.vim'
+Plugin 'judasnow/vim-ls'
 
-Bundle "kovisoft/slimv"
+Plugin 'groenewege/vim-less'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'hail2u/vim-css3-syntax'
 
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'terryma/vim-multiple-cursors'
-Bundle 'vim-scripts/taglist.vim'
-Bundle 'tpope/vim-fugitive'
-Bundle 'Shougo/vimshell.vim'
-Bundle "godlygeek/tabular"
+Plugin 'tmhedberg/SimpylFold'
+Plugin 'othree/html5.vim'
+Plugin 'oscarh/vimerl'
 
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+Plugin 'mxw/vim-jsx'
+
+Plugin 'kovisoft/slimv'
+
+"???
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'terryma/vim-multiple-cursors'
+
+Plugin 'vim-scripts/taglist.vim'
+Plugin 'tpope/vim-fugitive'
+
+Plugin 'Shougo/vimshell.vim'
+Plugin 'godlygeek/tabular'
+
+Plugin 'vim-scripts/LargeFile' 
+Plugin 'L9'
+Plugin 'bufexplorer.zip'
+
+call vundle#end()  
 filetype plugin indent on
 "}}}
 
@@ -121,7 +127,6 @@ set autoread
 filetype plugin on
 filetype indent on
 set so=7
-set linespace=2
 set scrolljump=6
 set hidden
 set nosmartindent
@@ -148,17 +153,22 @@ autocmd FileType python setlocal ts=4 sw=4 sts=4 expandtab
 
 "font & color
 "{{{
-" hi nontext guifg=#333333
-"
-set guifont=Monaco\ 11
-"set guifont=Menlo:h14
-"set guifont=M+\ 1m\ light:h16
+hi nontext guifg=#999999
+set guifont=Monaco:h13
+":set guifont=Menlo:h14
+set linespace=5
 set encoding=utf8
 set fileencoding=utf8
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 
-let g:solarized_bold=0    "default value is 1
-let g:solarized_underline=0    "default value is 1
-let g:solarized_italic=0    "default value is 1
+set langmenu=none
+language messages zh_cn.utf-8
+"内部编码
+set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=utf-8,chinese,latin-1
+
+
 let g:solarized_contrast="high"    "default value is normal
 syntax enable
 set background=dark
@@ -173,10 +183,6 @@ if has("win32")
     colorscheme solarized
     set guifont=Monaco:h10
     set gfw=Yahei_Mono:h10:cGB2312
-endif
-
-if has("unix")
-    set guifont=Ubuntu\ Mono\ 12
 endif
 "}}}
 
@@ -235,15 +241,6 @@ endfunction
 
 "}}}
 
-"enncode
-"{{{
-set langmenu=none
-language messages zh_cn.utf-8
-set fileencoding=utf-8
-set encoding=utf-8
-set fileencodings=utf-8,chinese,latin-1
-"}}}
-
 "NERDTree 
 "{{{
 map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
@@ -287,9 +284,13 @@ let g:bufExplorerUseCurrentWindow=1
 
 "indent_guides
 "{{{
+let g:indent_guides_auto_colors = 1
 let g:indent_guides_guide_size = 1
 let g:indent_guides_enable_on_vim_startup=0
 let g:indent_guides_space_guides = 1
+
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg="#4e4e4e"   ctermbg=3
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg="#4e4e4e" ctermbg=4
 "}}}
 
 "powerline | airline
@@ -305,8 +306,8 @@ let g:airline_theme="base16"
 "let g:airline#extensions#tabline#enabled = 1
 "let g:airline#extensions#tabline#left_sep = ' '
 "let g:airline#extensions#tabline#left_alt_sep = '|'
-"let g:Powerline_symbols = 'compatible'
-"let Powerline_symbols = 'compatible'
+let g:Powerline_symbols = 'compatible'"let Powerline_symbols = 'compatible'
+let Powerline_symbols = 'compatible'
 "}}}
 
 "rainbow
@@ -375,4 +376,5 @@ set foldlevel=1024
 "noremap k <NOP>
 "noremap l <NOP>
 "}}}
+
 
