@@ -14,7 +14,7 @@ else
 endif
 "}}}
 
-"vundle
+" plugin
 "{{{
 set nocompatible
 filetype off
@@ -42,8 +42,8 @@ Plugin 'mileszs/ack.vim'
 Plugin 'xolox/vim-lua-ftplugin'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'wlangstroth/vim-racket'
-
-Plugin 'stulzer/heroku-colorscheme'
+Plugin 'vim-jp/vim-java'
+Plugin 'hylang/vim-hy'
 
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'davidhalter/jedi-vim'
