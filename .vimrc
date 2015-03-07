@@ -46,29 +46,28 @@ Plugin 'vim-jp/vim-java'
 Plugin 'hylang/vim-hy'
 
 Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'davidhalter/jedi-vim'
-Plugin 'fs111/pydoc.vim'
-Plugin 'hdima/python-syntax'
+"Plugin 'davidhalter/jedi-vim'
+"Plugin 'fs111/pydoc.vim'
+"Plugin 'hdima/python-syntax'
 "Plugin 'tpope/vim-fugitive'
 Plugin 'alexjgriffin/sprinkles'
+
+Plugin 'tmhedberg/SimpylFold'
 
 Plugin 'bling/vim-airline'
 Plugin 'eagletmt/ghcmod-vim'
 
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'tomasr/molokai'
-Plugin 'vim-scripts/tornadotmpl.vim'
 Plugin 'jnurmine/Zenburn'
 
-Plugin 'mhinz/vim-startify'
 Plugin 'Shutnik/jshint2.vim'
-Plugin 'judasnow/vim-ls'
-
+Plugin 'vim-scripts/tornadotmpl.vim'
+Plugin 'mhinz/vim-startify'
 Plugin 'groenewege/vim-less'
+Plugin 'judasnow/vim-ls'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'hail2u/vim-css3-syntax'
-
-Plugin 'tmhedberg/SimpylFold'
 Plugin 'othree/html5.vim'
 Plugin 'oscarh/vimerl'
 
@@ -85,7 +84,7 @@ Plugin 'Lokaltog/vim-easymotion'
 Plugin 'terryma/vim-multiple-cursors'
 
 Plugin 'vim-scripts/taglist.vim'
-Plugin 'tpope/vim-fugitive'
+"Plugin 'tpope/vim-fugitive'
 
 Plugin 'Shougo/vimshell.vim'
 Plugin 'godlygeek/tabular'
