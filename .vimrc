@@ -59,7 +59,7 @@ Plugin 'eagletmt/ghcmod-vim'
 
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'tomasr/molokai'
-Plugin 'jnurmine/Zenburn'
+Plugin 'idbrii/vim-sandydune'
 
 Plugin 'Shutnik/jshint2.vim'
 Plugin 'vim-scripts/tornadotmpl.vim'
