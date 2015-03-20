@@ -59,7 +59,6 @@ Plugin 'eagletmt/ghcmod-vim'
 
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'tomasr/molokai'
-Plugin 'idbrii/vim-sandydune'
 
 Plugin 'Shutnik/jshint2.vim'
 Plugin 'vim-scripts/tornadotmpl.vim'
@@ -77,7 +76,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'mxw/vim-jsx'
 
-Plugin 'kovisoft/slimv'
+"Plugin 'kovisoft/slimv'
 
 "???
 Plugin 'Lokaltog/vim-easymotion'
