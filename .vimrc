@@ -58,8 +58,7 @@ Plugin 'bling/vim-airline'
 Plugin 'eagletmt/ghcmod-vim'
 
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'tomasr/molokai'
-Plugin 'idbrii/vim-sandydune'
+Plugin 'Lokaltog/vim-distinguished'
 
 Plugin 'Shutnik/jshint2.vim'
 Plugin 'vim-scripts/tornadotmpl.vim'
@@ -170,8 +169,9 @@ set fileencodings=utf-8,chinese,latin-1
 
 let g:solarized_contrast="high"    "default value is normal
 syntax enable
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
+colorscheme yy
 
 if has("win32")
     let g:solarized_bold=1    "default value is 1
