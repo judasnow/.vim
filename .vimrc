@@ -44,6 +44,7 @@ Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'wlangstroth/vim-racket'
 Plugin 'vim-jp/vim-java'
 Plugin 'hylang/vim-hy'
+Plugin 'justinmk/vim-syntax-extra'
 
 Plugin 'kien/rainbow_parentheses.vim'
 "Plugin 'davidhalter/jedi-vim'
@@ -57,8 +58,10 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'bling/vim-airline'
 Plugin 'eagletmt/ghcmod-vim'
 
+" colors
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'Lokaltog/vim-distinguished'
+Plugin 'jpo/vim-railscasts-theme'
+Plugin 'w0ng/vim-hybrid'
 
 Plugin 'Shutnik/jshint2.vim'
 Plugin 'vim-scripts/tornadotmpl.vim'
@@ -152,7 +155,7 @@ autocmd FileType python setlocal ts=4 sw=4 sts=4 expandtab
 "font & color
 "{{{
 hi nontext guifg=#999999
-set guifont=Monaco:h13
+set guifont=Monaco:h14
 ":set guifont=Menlo:h14
 set linespace=5
 set encoding=utf8
@@ -169,9 +172,8 @@ set fileencodings=utf-8,chinese,latin-1
 
 let g:solarized_contrast="high"    "default value is normal
 syntax enable
-"set background=dark
-"colorscheme solarized
-colorscheme yy
+set background=dark
+colorscheme solarized
 
 if has("win32")
     let g:solarized_bold=1    "default value is 1
