@@ -45,6 +45,7 @@ Plugin 'wlangstroth/vim-racket'
 Plugin 'vim-jp/vim-java'
 Plugin 'hylang/vim-hy'
 Plugin 'justinmk/vim-syntax-extra'
+Plugin 'scrooloose/syntastic'
 
 Plugin 'kien/rainbow_parentheses.vim'
 "Plugin 'davidhalter/jedi-vim'
@@ -61,8 +62,8 @@ Plugin 'eagletmt/ghcmod-vim'
 " colors
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'jpo/vim-railscasts-theme'
-Plugin 'w0ng/vim-hybrid'
-Plugin 'tomasr/molokai'
+Plugin 'atelierbram/vim-colors_atelier-schemes'
+Plugin 'chriskempson/base16-vim'
 
 Plugin 'Shutnik/jshint2.vim'
 Plugin 'vim-scripts/tornadotmpl.vim'
@@ -80,7 +81,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'mxw/vim-jsx'
 
-"Plugin 'kovisoft/slimv'
+Plugin 'kovisoft/slimv'
 
 "???
 Plugin 'Lokaltog/vim-easymotion'
@@ -378,5 +379,6 @@ set foldlevel=128
 "noremap k <NOP>
 "noremap l <NOP>
 "}}}
+
 
 
