@@ -45,11 +45,12 @@ Plugin 'wlangstroth/vim-racket'
 Plugin 'vim-jp/vim-java'
 Plugin 'hylang/vim-hy'
 Plugin 'justinmk/vim-syntax-extra'
+Plugin 'evanmiller/nginx-vim-syntax'
 
 Plugin 'kien/rainbow_parentheses.vim'
 "Plugin 'davidhalter/jedi-vim'
 "Plugin 'fs111/pydoc.vim'
-"Plugin 'hdima/python-syntax'
+Plugin 'hdima/python-syntax'
 "Plugin 'tpope/vim-fugitive'
 Plugin 'alexjgriffin/sprinkles'
 
@@ -57,12 +58,14 @@ Plugin 'tmhedberg/SimpylFold'
 
 Plugin 'bling/vim-airline'
 Plugin 'eagletmt/ghcmod-vim'
+Plugin 'hynek/vim-python-pep8-indent'
 
 " colors
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'jpo/vim-railscasts-theme'
 Plugin 'w0ng/vim-hybrid'
 Plugin 'tomasr/molokai'
+Plugin 'chriskempson/base16-vim'
 
 Plugin 'Shutnik/jshint2.vim'
 Plugin 'vim-scripts/tornadotmpl.vim'
